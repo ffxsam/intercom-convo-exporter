@@ -61,4 +61,6 @@ const { CONVO_DIR, PER_PAGE } = require('./constants');
     await writeConversation(conversationId);
     bar.increment();
   }
+
+  bar.stop();
 })();

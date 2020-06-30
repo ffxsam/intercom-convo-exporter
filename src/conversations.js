@@ -45,8 +45,6 @@ async function writeConversation(conversationId) {
       tags,
     }),
   );
-
-  process.stdout.write('#');
 }
 
 module.exports = {

@@ -1,0 +1,23 @@
+{
+  "name": "intercom-convo-exporter",
+  "version": "0.7.0",
+  "license": "MIT",
+  "description": "Intercom conversation export tool",
+  "main": "index.js",
+  "repository": "https://github.com/ffxsam/intercom-convo-exporter",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cli-progress": "^3.8.2",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.7.6",
+    "lodash.uniq": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1"
+  }
+}

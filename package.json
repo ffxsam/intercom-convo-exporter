@@ -14,7 +14,7 @@
     "cli-progress": "^3.8.2",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "lodash.uniq": "^4.5.0"
   },
   "devDependencies": {
